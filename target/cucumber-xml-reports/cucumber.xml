@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="552.392">
+<testcase classname="Checkout" name="Order Checkout" time="184.657">
+<system-out><![CDATA[Given user is actually successfully login...................................passed
+When I click on item with name "Sauce Labs Bike Light"......................passed
+And I click on the ADD TO CART button.......................................passed
+And I click on the SHOPPING CART button.....................................passed
+And I click on the CHECKOUT button..........................................passed
+And I enter the information as "test", "test", and "12345"..................passed
+And I click on continue button..............................................passed
+Then Item name matches that of "Sauce Labs Bike Light"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout" name="Order Checkout 2" time="183.817">
+<system-out><![CDATA[Given user is actually successfully login...................................passed
+When I click on item with name "Sauce Labs Backpack"........................passed
+And I click on the ADD TO CART button.......................................passed
+And I click on the SHOPPING CART button.....................................passed
+And I click on the CHECKOUT button..........................................passed
+And I enter the information as "test2", "test2", and "12345"................passed
+And I click on continue button..............................................passed
+Then Item name matches that of "Sauce Labs Backpack"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout" name="Order Checkout 3" time="183.736">
+<system-out><![CDATA[Given user is actually successfully login...................................passed
+When I click on item with name "Sauce Labs Fleece Jacket"...................passed
+And I click on the ADD TO CART button.......................................passed
+And I click on the SHOPPING CART button.....................................passed
+And I click on the CHECKOUT button..........................................passed
+And I enter the information as "test3", "test3", and "23456"................passed
+And I click on continue button..............................................passed
+Then Item name matches that of "Sauce Labs Fleece Jacket"...................passed
+]]></system-out>
+</testcase>
+</testsuite>
